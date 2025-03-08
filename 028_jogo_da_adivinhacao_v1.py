@@ -2,10 +2,9 @@
 #e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador.
 #O programa deverá escrever na tela se o usuário venceu ou perdeu.
 from random import randint
-from emoji import emojize
 from time import sleep
 print('-=-'*27)
-print(emojize('Consegue adivinhar o número em que estou pensanado? Podemos fazer uma aposta 🤑'))
+print('Consegue adivinhar o número em que estou pensanado? Podemos fazer uma aposta')
 print('-=-'*27)
 num_pc=randint(0,5)
 print('Estou pensando em um número de 0 a 5...')
