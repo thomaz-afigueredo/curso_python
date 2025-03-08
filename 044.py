@@ -6,9 +6,16 @@
 valor = float(input('Qual o valor do produto? R$ '))
 print('''Qual método de pagamento?
 [ 1 ] À Vista no PIX ou Dinheiro
-[ 2 ] À Vista no cartã
+[ 2 ] À Vista no cartão
 [ 3 ] Em até 2x no cartão
 [ 4 ] 3x ou mais''')
 tipo_pagamento=int(input('Sua opção: '))
+
 if tipo_pagamento == 1:
-    print('Sua compra de {:.2f} vai custar {:.2f} no final'.format(valor,valor - (valor*10) / 100))
+    print('Sua compra de R$ {:.2f} vai custar R$ {:.2f} no final'.format(valor,valor - (valor*10) / 100))
+elif tipo_pagamento == 2:
+    print('Sua compra de R$ {:.2f} vai custar R$ {:.2f} no final'.format(valor, valor - (valor*5) / 100))
+elif tipo_pagamento == 3:
+    print('Sua compra de R$ {:.2f} vai custar R$ {:.2f} no final'.format(valor, valor - (valor*0) / 100))
+elif tipo_pagamento == 4:
+    print('Sua compra de R$ {:.2f} vai custar R$ {:.2f} no final'.format(valor, valor + (valor*20) / 100))
