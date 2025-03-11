@@ -25,13 +25,13 @@ Ex 016 - Ex 021
 Ex 023 - Ex 027
 
 #10 - Condições (Parte 1)  
-Ex 28 - Ex 35
+Ex 028 - Ex 035
 
 #11 - Cores no Terminal  
 
 #012 - Condições Aninhadas  
-Ex 35 - Ex 45
+Ex 035 - Ex 045
 
 #013 - Estrutura de repetição for  
-Ex 46 - Ex 56
+Ex 046 - Ex 056
 
