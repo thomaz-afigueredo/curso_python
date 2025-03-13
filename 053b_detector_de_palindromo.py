@@ -2,4 +2,10 @@
 f = input('Insira uma frase: ').strip().lower()
 fseparado = f.split()
 fjunto = ''.join(fseparado)
-print(fjunto)
+inverso = fjunto[::-1]
+if inverso == fjunto:
+    print('Temos um PALÍNDROMO')
+else:
+    print('A frase digitada NÃO É UM PALÍNDROMO')
+print('-=-'*12)
+print(f , fjunto , inverso)
