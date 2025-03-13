@@ -35,3 +35,6 @@ Ex 035 - Ex 045
 #013 - Estrutura de repetição for  
 Ex 046 - Ex 056
 
+#014 - Estrutura de repetição while  
+Ex 057 - Ex 065
+
